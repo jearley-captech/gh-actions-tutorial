@@ -4,4 +4,7 @@ on:
     types: [opened]
 permissions: 
   pull_requests: write
-    
+jobs:
+  build:
+    name: Post welcome comment
+    runs-on: unbuntu-latest
